@@ -17,6 +17,10 @@ const Header: React.FC = () => {
       <style jsx>{`
         .bold {
           font-weight: bold;
+          padding: 15px 20px 20px 20px;
+        }
+        .bold:hover {
+          box-shadow: 1px 1px 3px #aaa;
         }
 
         a {
