@@ -11,13 +11,20 @@ const Header: React.FC = () => {
     <div className="left">
       <Link href="/">
         <a className="bold" data-active={isActive("/")}>
-          Feed
+          Inicio
         </a>
       </Link>
       <style jsx>{`
         .bold {
           font-weight: bold;
           padding: 15px 20px 20px 20px;
+          background-color: #FFFFFF;
+          border: none;
+          padding: 15px 32px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 16px;
         }
         .bold:hover {
           box-shadow: 1px 1px 3px #aaa;

@@ -43,6 +43,7 @@ const Post: React.FC<PostProps> = (props) => {
         .actions {
           margin-top: 2rem;
         }
+        
 
         button {
           background: #ececec;
